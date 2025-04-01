@@ -7,7 +7,7 @@ import CustomerDashboard from '../pages/customer/Dashboard';
 import RequestForm from '../pages/customer/RequestForm';
 import LiveBids from '../pages/customer/LiveBids';
 import ProviderDashboard from '../pages/provider/Dashboard';
-import PlaceBid from '../pages/provider/PlaceBid';  // Fixed import
+import PlaceBid from '../pages/provider/PlaceBid'; 
 import NotFound from '../pages/NotFound';
 
 export default function AppRoutes() {
