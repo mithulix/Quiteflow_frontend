@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-import { supabase } from '../lib/api'
+import { supabase } from '../services/api'
 
 const MarketplaceContext = createContext()
 

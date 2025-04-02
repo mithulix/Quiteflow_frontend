@@ -3,5 +3,9 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  // Add if missing in child configs:
+  "compilerOptions": {
+    "types": ["vite/client"]  // Critical for Vite env variables and asset imports
+  }
 }

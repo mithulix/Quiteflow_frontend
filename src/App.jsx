@@ -38,10 +38,3 @@ function App() {
 
 export default App
 
-// export default function App() {
-//   return (
-//     <div className="w-screen h-screen bg-red-500 flex items-center justify-center">
-//       <h1 className="text-4xl text-white font-bold">HELLO WORLD</h1>
-//     </div>
-//   )
-// }

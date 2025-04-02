@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import PrivateRoute from './PrivateRoute';
 import Home from '../pages/Home';
-import Login from '../pages/auth/Login';
-import Register from '../pages/auth/Register';
+import Login from '../auth/Login';
+import Register from '../auth/Register';
 import CustomerDashboard from '../pages/customer/Dashboard';
 import RequestForm from '../pages/customer/RequestForm';
 import LiveBids from '../pages/customer/LiveBids';
